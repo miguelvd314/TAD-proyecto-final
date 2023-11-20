@@ -1,0 +1,88 @@
+#wrapper {
+    overflow-x: hidden;
+ }
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}
+.sidebar-heading{
+    background-color: #007bff;
+    color: #ffff;
+}
+
+.users {   
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.message_form{
+    position:absolute;
+    bottom: 20px;
+   
+}
+
+.incoming__message{
+ padding-right: 200px;
+
+}
+.outgoing__message{
+    padding-left: 200px;
+}
+.sent__message p{
+    background: #007bff;
+    margin-left: 5px;
+    color: #ffff;
+}
+
+.received__message p{
+    background: rgb(172, 171, 171);
+}
+.message__info{
+    margin-top: 0%;
+    text-align: right;
+}
+.message__info .message__author{
+    text-align: left;
+}
+.incoming__message{
+    text-align: left;
+}
