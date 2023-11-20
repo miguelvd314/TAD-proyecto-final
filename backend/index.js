@@ -8,7 +8,7 @@ const socket = require("socket.io");
 const bodyParser = require('body-parser');
 
 const app = express();
-const port = process.env.PORT || 9000;
+const port = process.env.PORT;
 
 //middleware
 app.use(cors())
