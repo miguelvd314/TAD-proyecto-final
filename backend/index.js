@@ -9,6 +9,7 @@ const bodyParser = require('body-parser');
 
 const app = express();
 const port = process.env.PORT;
+cont = uri = 'mongodb+srv://admin:admin@cluster0.dbwsjso.mongodb.net/sistDistribuidos'
 
 //middleware
 app.use(cors())
@@ -23,7 +24,8 @@ app.get("/", (req, res)=>{
 
 //mongodb conection
 mongoose
-.connect(process.env.MONGODB_URI)
+// .connect(process.env.MONGODB_URI)
+.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
 .then(() => console.log("Conectado a mongodb atlas"))
 .catch((error)=> console.error(error));
 

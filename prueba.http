@@ -3,10 +3,10 @@ POST http://localhost:9000/api/users HTTP/1.1
 Content-Type: application/json
 
 {
-    "titulo": "Desarrollo de software para gestión de inventarios",
-    "descripcion": "Se busca programador para el desarrollo de un software para la gestión de inventarios de una tienda de electrónica. El software deberá ser capaz de registrar entradas y salidas de productos, generar reportes y realizar un seguimiento del inventario en tiempo real.",
-    "requisitos": "Conocimientos en programación de software y experiencia en el desarrollo de sistemas de gestión de inventarios. Deberá ser capaz de trabajar en equipo y seguir instrucciones.",
-    "pago": "USD 1200"
+    "titulo": "asd",
+    "descripcion": "asd",
+    "requisitos": "asd",
+    "pago": "asd"
 }
 
 ### 
